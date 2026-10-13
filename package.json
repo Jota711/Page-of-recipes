@@ -1,0 +1,11 @@
+{
+  "name": "alexa-focus-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node -e \"process.env.ALEXA_FOCUS_RUN='1'; import('./server.mjs')\"",
+    "test": "node test.mjs"
+  }
+}
+
